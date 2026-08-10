@@ -1,0 +1,21 @@
+﻿# Terraform provider binaries and cache
+.terraform/
+
+# Terraform state files (contain sensitive data, stored remotely in Azure)
+*.tfstate
+*.tfstate.backup
+
+# Terraform variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform lock file (optional to ignore - some teams commit this)
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# OS files
+.DS_Store
+Thumbs.db
